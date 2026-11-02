@@ -343,7 +343,7 @@
 			"details": "https://github.com/lindskogen/RandomHEXColor",
 			"releases": [
 				{
-					"sublime_text": "<3000",
+					"sublime_text": "*",
 					"branch": "master"
 				}
 			]
@@ -677,6 +677,17 @@
 				{
 					"sublime_text": "<3000",
 					"branch": "master"
+				}
+			]
+		},
+		{
+			"name": "ReadableResume Snippets",
+			"details": "https://github.com/supertj/readable-resume-sublime",
+			"labels": ["snippets", "latex", "typst", "resume"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
 				}
 			]
 		},

@@ -5776,11 +5776,15 @@
 		},
 		{
 			"name": "Swift",
-			"details": "https://github.com/quiqueg/Swift-Sublime-Package",
-			"labels": ["language syntax"],
+			"details": "https://github.com/hanguokai/sublime-swift",
+			"labels": ["language syntax", "swift"],
 			"releases": [
 				{
-					"sublime_text": "*",
+					"sublime_text": "<3092",
+					"tags": "st2-"
+				},
+				{
+					"sublime_text": ">=3092",
 					"tags": true
 				}
 			]
@@ -6119,6 +6123,17 @@
 			"releases": [
 				{
 					"sublime_text": ">=3000",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Synesthete",
+			"details": "https://github.com/dchacke/synesthete",
+			"labels": ["music", "audio", "visualization"],
+			"releases": [
+				{
+					"sublime_text": ">=4107",
 					"tags": true
 				}
 			]

@@ -125,6 +125,19 @@
 			]
 		},
 		{
+			"name": "Icons - FileIcons",
+			"previous_names": ["FileIcons Theme"],
+			"details": "https://github.com/braver/FileIcons",
+			"donate": "https://ko-fi.com/koenlageveen",
+			"labels": ["file", "icons", "file icon theme"],
+			"releases": [
+				{
+					"sublime_text": ">=4206",
+					"tags": "theme-"
+				}
+			]
+		},
+		{
 			"details": "https://github.com/chrisborrowdale/Idiomatic-CSS-Comments-Snippets",
 			"labels": ["snippets"],
 			"releases": [
@@ -901,20 +914,6 @@
 				{
 					"sublime_text": ">=3000",
 					"tags": true
-				}
-			]
-		},
-		{
-			"name": "Instacode",
-			"details": "https://github.com/lindskogen/InstacodeSublime",
-			"releases": [
-				{
-					"sublime_text": ">=3000",
-					"branch": "master"
-				},
-				{
-					"sublime_text": "<3000",
-					"branch": "st2"
 				}
 			]
 		},
